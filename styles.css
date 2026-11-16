@@ -41,6 +41,12 @@ body {
 
 img { max-width: 100%; height: auto; }
 
+/* The [hidden] attribute must always win over component display rules.
+   .form-status uses display:grid, which outranks the user-agent
+   [hidden]{display:none} rule and would otherwise show the submission
+   confirmation on every page load. */
+[hidden] { display: none !important; }
+
 h1, h2, h3 {
   font-family: var(--font-display);
   color: var(--ink);
