@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jeremy Racicot">
+  <rect width="64" height="64" rx="8" fill="#14181d"/>
+  <rect x="0" y="52" width="64" height="12" fill="#b8420a"/>
+  <text x="32" y="40" text-anchor="middle"
+        font-family="Barlow Condensed, Arial Narrow, Arial, sans-serif"
+        font-size="30" font-weight="700" fill="#ffffff" letter-spacing="1">JR</text>
+</svg>
